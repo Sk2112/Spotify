@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+ background : linear-gradient(100deg,lightblue,rgb(83, 78, 78)) ;  
+ /*transition: background-color 1.5s ease-in-out;*/
+}
+
+nav{
+  height: 150px;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  
+  text-shadow:3px 3px 2px rgb(17, 158, 41);
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  
+  
+}
+
+ 
+
+
+
+nav img{
+  height:100px;
+  width: 120px;
+
+}
+
+nav p{
+  color: rgb(235, 223, 223);
+  font-size: 65px;
+  padding: 0px 30px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 2px solid greenyellow;
+}
+
+.container{
+  height: 100vh;
+  
+}
+
+.container h1{
+  color: rgb(2, 2, 2);
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  margin-top: 1cm;
+  margin-left: 15px;
+  margin-bottom: 1cm;
+}
+
+.songs{
+  padding-top: 4px;
+  position: relative;
+  width: 250px;
+  float: left;
+  height:270px;
+  display: flex;
+  flex-wrap: wrap;
+
+  border-radius:20px ;
+  border: 2px solid black;
+  box-shadow:0 35px 80px rgba(0,0,0.15) ;
+  transition: 0.8s;
+  margin-top: 6vh;
+  margin-left:2.7cm;
+  opacity: 1;
+  margin-bottom: 10vh;
+}
+
+.one{
+  opacity: 0;
+}
+
+.one:hover{
+ opacity:1;
+}
+
+.songs p{
+  font-size: 30px;
+  padding: 40px;
+  text-align: center;
+  margin-left: 10px;
+  position: relative;
+}
+
+.songs img{
+  position: absolute;
+  left: 50%;
+  top  : -50px;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  background:#fff;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px  rgba(0,0,0.35);
+  overflow: hidden;
+  transition: 1s;
+  
+}
+.songs.songs img:hover{
+  width:150px ;
+  height:150px ;
+}
+
+
+.songs i{
+  font-size: 70px;
+  margin-left:5px;
+}
+
+.bottom{
+  background: #b8c8e1;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0px;
+}
+
+.bottom img{
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  left:100px;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#seek{
+ width: 85%; 
+ cursor: pointer;
+}
+
+.icons{
+  font-size: 50px;
+  
+
+}
+
+.icons i{
+  padding: 0px 10px;
+  cursor: pointer;
+  
+}s
+
+.songName{
+  color: white;
+}
+
+.songs i {
+  opacity :1 ;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
