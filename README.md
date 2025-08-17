@@ -14,14 +14,15 @@ This project replicates the **UI and basic functionality** of Spotify, focusing 
 
 ---
 ## 📷 Ui Screenshot 
-
-
 <img width="1898" height="952" alt="image" src="https://github.com/user-attachments/assets/fa743247-1a59-4f40-a1e0-6dcb42529d27" />
+
 ---
+
+
 ## 🛠️ Tech Stack
 - **HTML5** – Structure  
 - **CSS3** – Styling & Layout  
-- **JavaScript  – Interactivity
+- **JavaScript**  – Interactivity
 
 ---
 
@@ -43,6 +44,6 @@ This project replicates the **UI and basic functionality** of Spotify, focusing 
 
 ---
 ## 📧 Contact
- - Built with ❤️ by Sumit Kumar
+ - Built with ❤️ by **Sumit** **Kumar**
 
   
