@@ -17,7 +17,7 @@ This project replicates the **UI and basic functionality** of Spotify, focusing 
 
 
 <img width="1898" height="952" alt="image" src="https://github.com/user-attachments/assets/fa743247-1a59-4f40-a1e0-6dcb42529d27" />
-
+---
 ## 🛠️ Tech Stack
 - **HTML5** – Structure  
 - **CSS3** – Styling & Layout  
