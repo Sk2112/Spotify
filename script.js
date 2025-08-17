@@ -19,7 +19,7 @@ let songItem = [
 
   {songName:"Kesariya" , filePath:"5.mp3" , coverPath:"5.jpg"},
 
-  {songName:"level - By Sidhu Moosewala" , filePath:"6.mp3" , coverPath:"6.jpg"},
+  {songName:"     level" , filePath:"6.mp3" , coverPath:"6.jpg"},
 
   {songName:"Har Har Shambhu" , filePath:"7.mp3" , coverPath:"7.jpg"},
 
